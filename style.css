@@ -1,0 +1,33 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+  }
+  
+  .grid-item {
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  }
+  
+  body {
+    background-color: #ecf0f1;
+    font-family: 'Balthazar', serif;
+  }
+  
+  .result {
+    height: 100px;
+    width: 100%;
+    background-color: antiquewhite;
+  }
+  
+  .player-score {
+    font-size: 30px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 5px;
+  }
+  
+  
